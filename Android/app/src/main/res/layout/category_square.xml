@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_corners_bg2">
+
+    <ImageView
+        android:id="@+id/imagineCategorieClasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/papadie"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagineCategorieClasa"
+        android:textSize="22sp"
+        android:id="@+id/titluCategorie"
+        android:layout_marginTop="10dp"
+        android:text="@string/class_placeholder"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:id="@+id/numarPozeInCategorie"
+        android:layout_below="@id/titluCategorie"
+        android:text="(1)"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        />
+
+</RelativeLayout>

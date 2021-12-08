@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_gradient"
+    tools:context=".ClassGalleryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zonaBack"
+        android:padding="5dp">
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="@string/back"/>
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_below="@id/zonaBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:padding="10dp"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"/>
+
+</RelativeLayout>

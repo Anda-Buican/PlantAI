@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Plant AI</string>
+    <string name="app_title">Recunoasterea Plantelor</string>
+    <string name="add_picture">Adauga poza</string>
+    <string name="options">Optiuni</string>
+    <string name="gallery">Galerie</string>
+    <string name="exit">Iesire</string>
+    <string name="classify">Clasifica</string>
+    <string name="realTime">Rulare continua</string>
+    <string name="cancel">Anulare</string>
+    <string name="inputChoice">Metoda input</string>
+
+
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">TFL Classify</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string name="model" translatable="false">Retea:</string>
+    <string-array name="models" translatable="false">
+        <item>ResNet 34</item>
+        <item>ResNet50 Pre</item>
+        <item>InceptionV2</item>
+    </string-array>
+
+    <string name="tfe_ic_device" translatable="false">Device:</string>
+    <string name="options_title">Optiuni</string>
+    <string name="delete_pictures">Sterge pozele</string>
+    <string name="poza">Poza</string>
+    <string name="clasifica_planta">Clasifica planta</string>
+    <string name="class_placeholder">Clasa plantei</string>
+    <string name="back">Inapoi</string>
+    <string name="procent">Procent</string>
+    <string name="placeholder_data">31–12–1999</string>
+    <string name="save">Salveaza</string>
+    <string name="success">Succes</string>
+    <string name="timp_procesare">Timp procesare</string>
+    <string-array name="tfe_ic_devices" translatable="false">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+</resources>

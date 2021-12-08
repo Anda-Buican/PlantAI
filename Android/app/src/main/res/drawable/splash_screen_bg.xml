@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/splash_screen_gradient"/>
+    <item>
+        <bitmap
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/app_icn" />
+    </item>
+    <item android:bottom="50dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@drawable/name" />
+    </item>
+</layer-list>
