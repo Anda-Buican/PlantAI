@@ -1,0 +1,11 @@
+
+flowers/
+Retele/
+__pycache__/
+liteModel.tflite
+.idea/misc.xml
+.idea/pythonProject.iml
+.idea/.name
+/RecunoastereaPlantelorAndroid/
+/cache_flat.npy
+/cache_target.npy
